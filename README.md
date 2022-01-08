@@ -18,5 +18,6 @@ then I am taken to that deployed application
 • resize the page or view the site on various screens and devices
 then I am presented with a responsive layout that adapts to my viewport
 
+
 ### Developed by:
 Rebecca Hurtado

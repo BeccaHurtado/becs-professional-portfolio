@@ -50,7 +50,7 @@
     display: flex;
     background: url(../images/bh-background.jpg) no-repeat center;
     height: 100vh;
-    color: black;
+    color: white;
     min-height: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -61,6 +61,7 @@
 
 .home .home-content .text-1 {
     font-size: 27px;
+    font-style: oblique;
 }
 
 .home .home-content .text-2 {
@@ -75,7 +76,7 @@
 }
 
 .home .home-content .text-3 span {
-    color: white;
+    color: #E0AFA0;
     font-weight: 500px;
 }
 
