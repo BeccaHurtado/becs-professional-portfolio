@@ -175,19 +175,96 @@ section {
 }
 
 /* resume styling */
-.resume .title {
+.resume {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+.resume .title {
     font-weight: 800px;
     font-size: 40px;
 }
 
 .resume .text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    padding: 20px;
     font-size: 30px;
 }
+
+.row {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.img {
+    height: 50%;
+    margin: 10px;
+    box-shadow: 10px 14px 20px 0px rgba(226, 204, 189, 1);
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.img-1 {
+    background: url(../images/run-buddy.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-2 {
+    background: url(../images/horiseon.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-3 {
+    background: url(../images/bh-logo.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-4 {
+    background: url(../images/compass.jpg)no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* contact section stylin */
+
+
+
+
 /* responsive media query start */
+
+/*media query 2 */
+@media  screen and (min-width:1000px) { 
+    .row {
+        height: 800px;
+    }
+
+    .row img {
+        height: 50%;
+    }
+
+    .img-1, .img-4 {
+        width: 24%;
+    }
+
+    .img-2, .img-3 {
+        width: 70%;
+    }
+}
+
+
 /*
 @media (max-width: 980px) {
  
