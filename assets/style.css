@@ -245,7 +245,7 @@ section {
 
 /* responsive media query start */
 
-/*media query 2 */
+/*media query */
 @media  screen and (min-width:1000px) { 
     .row {
         height: 800px;
