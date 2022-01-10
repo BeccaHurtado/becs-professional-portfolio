@@ -321,20 +321,21 @@ section {
         width: 100%;
     }
     
-    footer {
-        position: fixed;
+    .max-width {
+        padding: 0 50px;
     }
-    
 }
 
-@media screen and (max-width: 768px) {
-    section {
-        padding: 30px 15px;
+@media (max-width: 560px) {
+    .max-width {
+        padding: 0 23px;
     }
 
-    .about {
-        flex: 1 100%;
-        text-align: center;
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+    .home .home-content .text-3 {
+        font-size: 32px;
     }
 
 }
